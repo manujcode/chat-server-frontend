@@ -25,7 +25,7 @@ const NavBar = ({handleLogout,mail}) => {
           <div className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded">
             User -  {mail}
           </div>
-          <button onClick={()=>handleLogout()} className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded">
+          <button onClick={()=>handleLogout()} className="px-4 py-2 bg-red-600 hover:bg-blue-700 rounded">
             Logout
           </button>
         </div>
